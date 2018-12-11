@@ -1,0 +1,16 @@
+in the repo directory:
+
+rm -rf .git
+
+git init
+git add .
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/SaranshKejriwal/my_TrashCan
+git push -u --force origin master
+
+
+
+
+
+ref: https://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository
